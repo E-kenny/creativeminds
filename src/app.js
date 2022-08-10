@@ -6,7 +6,7 @@ import Footer from './footer';
 class App extends React.Component {
   constructor(props){
     super(props);
-    this.state = {// require('@tailwindcss/aspect-ratio')
+    this.state = {// requireimport { Link } from "react-router-dom";('@tailwindcss/aspect-ratio')
       date: new Date()
     }; 
 
