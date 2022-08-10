@@ -1,9 +1,9 @@
 
 
 /* This example requires Tailwind CSS v2.0+ */
-// import { Fragment } from 'react'
-// import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Disclosure} from '@headlessui/react'
+import { Fragment } from 'react'
+import { Disclosure, Menu, Transition } from '@headlessui/react'
+// import { Disclosure} from '@headlessui/react'
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 
 const navigation = [
@@ -77,7 +77,7 @@ export default function Nav() {
                 </button>
 
                 {/* Profile dropdown */}
-                {/* <Menu as="div" className="ml-3 relative">
+                <Menu as="div" className="ml-3 relative">
                   <div>
                     <Menu.Button className="bg-gray-800 flex text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
                       <span className="sr-only">Open user menu</span>
@@ -130,12 +130,12 @@ export default function Nav() {
                       </Menu.Item>
                     </Menu.Items>
                   </Transition>
-                </Menu> */}
+                </Menu> 
               </div>
             </div>
           </div>
 
-          {/* <Disclosure.Panel className="sm:hidden">
+           <Disclosure.Panel className="sm:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navigation.map((item) => (
                 <Disclosure.Button
@@ -152,7 +152,7 @@ export default function Nav() {
                 </Disclosure.Button>
               ))}
             </div>
-          </Disclosure.Panel> */}
+          </Disclosure.Panel>
         </>
       )}
     </Disclosure>
