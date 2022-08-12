@@ -7,10 +7,10 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 
 const navigation = [
-  { name: 'Home', href: '/', current: true },
-  { name: 'Show Room', href: '/showroom', current: false },
-  { name: 'About', href: '/about', current: false },
-  { name: 'Contact Us', href: '/contactus', current: false },
+  { name: 'Home', href: 'https://creativeminds-furniture.netlify.app', current: true },
+  { name: 'Show Room', href: 'https://creativeminds-furniture.netlify.app/showroom', current: false },
+  { name: 'About', href: 'https://creativeminds-furniture.netlify.app/about', current: false },
+  { name: 'Contact Us', href: 'https://creativeminds-furniture.netlify.app/contactus', current: false },
 ]
 
 function classNames(...classes) {
