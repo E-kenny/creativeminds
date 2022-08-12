@@ -29,7 +29,7 @@ class App extends React.Component {
         const state = this.state
         return (
           <div>
-            <Nav/>
+            <Nav className="sticky top-0"/>
             <h1 className="text-3xl font-bold">Creative Minds Furniture</h1>
             <h2>{state.date.toLocaleTimeString()}.</h2>
             {/* <Feed/> */}
