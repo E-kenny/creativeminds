@@ -1,10 +1,11 @@
 import Nav from './nav'
+import List from './list'
 
 export default function ShowRoom(){
     return (
         <div>
-            <Nav/>
-            <h1> Show room</h1>
+            <Nav className="sticky top-0"/>
+            <List/>
         </div>
     )
 }

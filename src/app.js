@@ -1,7 +1,8 @@
 import React from 'react';
-import List from './list';
 import Nav from './nav';
-import Footer from './footer';
+// import Feed from './feed';
+// import Footer from './footer';
+
 
 class App extends React.Component {
   constructor(props){
@@ -12,7 +13,7 @@ class App extends React.Component {
 
   }
       
-      componentDidMount(){<Footer/>
+      componentDidMount(){
       this.timerID = setInterval(() => {this.tick()
       }, 1000);
       }
@@ -29,9 +30,9 @@ class App extends React.Component {
         return (
           <div>
             <Nav/>
-            <h1 className="text-3xl font-bold">Welcome!</h1>
+            <h1 className="text-3xl font-bold">Creative Minds Furniture</h1>
             <h2>{state.date.toLocaleTimeString()}.</h2>
-            <List/>
+            {/* <Feed/> */}
             {/* <Footer/> */}
           </div>
         )
