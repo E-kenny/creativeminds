@@ -30,8 +30,8 @@ class App extends React.Component {
         return (
           <div>
             <Nav className="sticky top-0"/>
-            <h1 className="text-3xl font-bold">Creative Minds Furniture</h1>
-            <h2>{state.date.toLocaleTimeString()}.</h2>
+            <h2>{state.date.toLocaleTimeString()}</h2>
+            <h1 className="text-5xl font-bold">Creative Minds Furniture</h1>
             {/* <Feed/> */}
             {/* <Footer/> */}
           </div>
