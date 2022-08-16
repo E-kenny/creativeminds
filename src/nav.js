@@ -162,10 +162,7 @@ export default function Nav() {
                   )}
                   aria-current={item.current ? 'page' : undefined}
                 >
-                  {item.name}<div>
-            <Nav/>
-            <h1> Contact us</h1>
-        </div>
+                  {item.name}
                 </Disclosure.Button>
               ))}
             </div>
