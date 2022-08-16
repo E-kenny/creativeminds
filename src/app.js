@@ -30,10 +30,13 @@ class App extends React.Component {
         return (
           <div>
             <Nav className="sticky top-0"/>
-            <h2>{state.date.toLocaleTimeString()}</h2>
-            <h1 className="text-5xl font-bold">Creative Minds Furniture</h1>
-            {/* <Feed/> */}
-            {/* <Footer/> */}
+            <>
+              <h2>{state.date.toLocaleTimeString()}</h2>
+              <h1 className="m-auto py-10 w-80 sm:w-7/12 text-2xl md:text-4xl font-bold">Creative Minds   Furniture</h1>
+              {/* <Feed/> */}
+              {/* <Footer/> */}
+            </>
+            
           </div>
         )
       }
