@@ -14,6 +14,9 @@
   }
   ```
 */
+
+import Footer from "./footer"
+
 const products = [
     {
       id: 1,
@@ -90,6 +93,7 @@ const products = [
             ))}
           </div>
         </div>
+        <Footer/>
       </div>
     )
   }

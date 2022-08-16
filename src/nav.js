@@ -13,7 +13,7 @@ const navigation = [
   { name: 'Home', href: '/', current: true },
   { name: 'Show Room', href: '/showroom', current: false },
   { name: 'About', href: '/about', current: false },
-  { name: 'Contact Us', href: '/contactus', current: false },
+  { name: 'Contact', href: '/contact', current: false },
 ]
 
 function classNames(...classes) {
@@ -162,7 +162,10 @@ export default function Nav() {
                   )}
                   aria-current={item.current ? 'page' : undefined}
                 >
-                  {item.name}
+                  {item.name}<div>
+            <Nav/>
+            <h1> Contact us</h1>
+        </div>
                 </Disclosure.Button>
               ))}
             </div>

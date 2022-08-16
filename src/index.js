@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Nav from './nav';
 import ShowRoom from './showroom';
 import About from './about';
-import ContactUs from './contactus';
+import ContactUs from './contact';
 
 // ReactDOM.render(<App />, document.getElementById('root'))
 
@@ -26,7 +26,7 @@ root.render(
       <Route path="nav" element={<Nav/>}/>
       <Route path="showroom" element={<ShowRoom/>}/>
       <Route path="about" element={<About/>}/>
-      <Route path="contactus" element={<ContactUs/>}/>
+      <Route path="contact" element={<ContactUs/>}/>
     </Routes>
   </BrowserRouter>
 
