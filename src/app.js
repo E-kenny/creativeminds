@@ -28,13 +28,13 @@ class App extends React.Component {
       render(){
         // const state = this.state
         return (
-          <div className='m-4'>
+          <div>
             <Nav className="sticky top-0"/>
-            <>
+            <div className='m-4'>
               <h1 className="m-auto py-10 w-80 sm:w-7/12 text-2xl md:text-4xl font-bold">Creative Minds   Furniture</h1>
               <Feed/>
               <Footer/>
-            </>
+            </div>
             
           </div>
         )
