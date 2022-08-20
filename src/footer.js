@@ -6,7 +6,7 @@ export default function Footer(){
             <div>
 
             </div>
-            <footer className="m-auto w-60 p-4">
+            <footer className="mx-auto w-60 mt-4 mb-0">
                 &copy; Creative_minds 2022
             </footer>
             

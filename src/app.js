@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from './nav';
-// import Feed from './feed';
+import Feed from './feed';
 import Footer from './footer';
 
 
@@ -26,15 +26,13 @@ class App extends React.Component {
       }
 
       render(){
-        const state = this.state
+        // const state = this.state
         return (
-          <div>
+          <div className='m-4'>
             <Nav className="sticky top-0"/>
             <>
-              <h2 className="m-auto w-80 sm:w-7/12 text-2xl">{state.date.toLocaleTimeString()}</h2>
-              <h1 className="m-auto py-4 w-80 sm:w-7/12 text-2xl md:text-4xl font-bold">Creative Minds   Furniture</h1>
-              <img className='shadow h-80 w-80 sm:w-96 m-auto' src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="CreativeMinds" />
-              {/* <Feed/> */}
+              <h1 className="m-auto py-10 w-80 sm:w-7/12 text-2xl md:text-4xl font-bold">Creative Minds   Furniture</h1>
+              <Feed/>
               <Footer/>
             </>
             
